@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   
   s.prepare_command = <<-CMD
       echo 'fetching j2objc.framework'
-      curl -OL 'https://diyalog.im/app/pkgs/ios_frameworks/j2objc/1.0.3/j2objc.zip'
+      curl -OL 'https://diyalog.im/releases/j2objc/1.0.3/j2objc.zip'
       rm -fr 'j2objc.framework'
       rm -fr 'j2objc.xcframework'
       echo 'unzipping j2objc.xcframework'
