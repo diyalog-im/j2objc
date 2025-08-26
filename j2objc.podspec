@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'j2objc'
-  s.version          = '1.0.3'
+  s.version          = '1.0.5'
   s.summary          = 'Google j2objc framework that customized for DiyalogEngine.'
   s.homepage         = 'https://github.com/diyalog-im/j2objc'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   
   s.prepare_command = <<-CMD
       echo 'fetching j2objc.framework'
-      curl -OL 'https://diyalog.im/releases/j2objc/1.0.3/j2objc.zip'
+      curl -OL 'https://diyalog.im/releases/j2objc/1.0.5/j2objc.zip'
       rm -fr 'j2objc.framework'
       rm -fr 'j2objc.xcframework'
       echo 'unzipping j2objc.xcframework'
